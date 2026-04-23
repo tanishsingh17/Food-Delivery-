@@ -7,7 +7,7 @@ import axios from 'axios'
 const ContextStoreProvider = (props) => {
 
     const [cartItems, setCartItems] = useState({});
-    const url = import.meta.env.VITE_FRONT_URL;
+    const url = import.meta.env.VITE_API_URL;
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([])
 
